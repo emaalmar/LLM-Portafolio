@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Model cache
+.cache/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
