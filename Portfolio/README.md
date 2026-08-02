@@ -11,7 +11,7 @@ I'm a nurse transitioning into AI Engineering, combining clinical healthcare kno
 ## Skills
 
 - **Programming:** Python, JavaScript, React
-- **AI/ML:** Transformers, LLMs, Prompt Engineering, RAG, Fine-tuning (LoRA/QLoRA)
+- **AI/ML:** Transformers, LLMs, Tokenization (BPE), Prompt Engineering, Fine-tuning (SFT, RLHF, DPO), RAG
 - **Tools:** PyTorch, HuggingFace Transformers, LangChain, Promptfoo
 - **Domain:** Healthcare data, clinical workflows, HealthTech
 
@@ -22,8 +22,9 @@ I'm a nurse transitioning into AI Engineering, combining clinical healthcare kno
 | 1 | [LLM Next-Token Prediction](01_llm-next-token/) | Transformers, tokenization, probability | Done |
 | 2 | [Autoregressive Text Generation](02_autoregressive-text-generation/) | Autoregressive loop, sampling, temperature | Done |
 | 3 | [Self-Attention Visualization](03_self-attention-visualization/) | Q/K/V, attention weights, heatmap | Done |
-| 4 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
-| 5 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
+| 4 | [Base vs Instruct: Fine-Tuning](04_base-vs-instruct-finetuning/) | Tokenization, BPE, base vs instruct, SFT/RLHF | Done |
+| 5 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
+| 6 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
 
 ## How to Run
 
@@ -52,6 +53,9 @@ python next_token.py
 - **Transformers:** architecture that powers all modern LLMs
 - **Self-attention (Q/K/V):** how models figure out which words matter
 - **Autoregressive generation:** how text is built token by token
+- **Tokenization (BPE):** how text becomes numbers the model can process
+- **Base vs Instruct models:** the difference between pre-training and fine-tuning
+- **Fine-tuning (SFT, RLHF/DPO):** how we align models to follow instructions
 - **Prompt engineering:** zero-shot, few-shot, chain-of-thought
 
 ## Contact
