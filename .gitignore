@@ -16,3 +16,7 @@ venv/
 # Local tooling (opencode conventions — private, recruiter-facing repo stays clean)
 AGENTS.md
 .opencode/
+
+# Folder
+Clase3_practica/
+Bootcamp_de_aplicaciones_con_LLMs_e_inteligencia_artificial/

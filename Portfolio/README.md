@@ -24,8 +24,9 @@ I'm a nurse transitioning into AI Engineering, combining clinical healthcare kno
 | 3 | [Self-Attention Visualization](03_self-attention-visualization/) | Q/K/V, attention weights, heatmap | Done |
 | 4 | [Base vs Instruct: Fine-Tuning](04_base-vs-instruct-finetuning/) | Tokenization, BPE, base vs instruct, SFT/RLHF | Done |
 | 5 | [Embeddings & Polysemy](05_embeddings-polysemy/) | Static vs contextual embeddings, meaning-space | Done |
-| 6 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
-| 7 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
+| 6 | [Prompt Engineering Principles](06_prompt-engineering-principles/) | Role, output format, few-shot, evaluation rubric, task division | Done |
+| 7 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
+| 8 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
 
 ## How to Run
 
@@ -59,6 +60,7 @@ python next_token.py
 - **Base vs Instruct models:** the difference between pre-training and fine-tuning
 - **Fine-tuning (SFT, RLHF/DPO):** how we align models to follow instructions
 - **Prompt engineering:** zero-shot, few-shot, chain-of-thought
+- **Prompt engineering principles:** role + instructions, output format, few-shot examples, evaluation rubrics, task division
 
 ## Contact
 
