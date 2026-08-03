@@ -54,13 +54,4 @@ Best prediction: 'The cat sleeps on the  floor'
 - HuggingFace Transformers 5.14
 - Model: GPT-2 (124M parameters)
 
-## Modern Alternatives (2026)
-
-| Model | Params | Notes |
-|-------|--------|-------|
-| GPT-2 | 124M | Classic teaching model (used here) |
-| Qwen2.5-0.5B-Instruct | 500M | Modern, multilingual, better quality |
-| SmolLM2-135M-Instruct | 135M | Tiny, fast, modern architecture |
-| GPT-5.5 | ~1.8T | State-of-the-art (API only) |
-
 

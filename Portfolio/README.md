@@ -32,7 +32,7 @@ Each project has its own `README.md` with instructions. All projects run locally
 
 ```bash
 # Clone this repo
-git clone https://github.com/<your-username>/LLM-Portfolio.git
+git clone https://github.com/emaalmar/LLM-Portafolio.git
 
 # Go to any project
 cd 01_llm-next-token

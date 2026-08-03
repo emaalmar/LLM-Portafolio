@@ -12,3 +12,7 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local tooling (opencode conventions — private, recruiter-facing repo stays clean)
+AGENTS.md
+.opencode/
