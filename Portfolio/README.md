@@ -60,5 +60,4 @@ python next_token.py
 
 ## Contact
 
-- GitHub: [your-github]
-- LinkedIn: [your-linkedin]
+- GitHub: [https://github.com/emaalmar](https://github.com/emaalmar)
