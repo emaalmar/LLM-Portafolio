@@ -23,8 +23,9 @@ I'm a nurse transitioning into AI Engineering, combining clinical healthcare kno
 | 2 | [Autoregressive Text Generation](02_autoregressive-text-generation/) | Autoregressive loop, sampling, temperature | Done |
 | 3 | [Self-Attention Visualization](03_self-attention-visualization/) | Q/K/V, attention weights, heatmap | Done |
 | 4 | [Base vs Instruct: Fine-Tuning](04_base-vs-instruct-finetuning/) | Tokenization, BPE, base vs instruct, SFT/RLHF | Done |
-| 5 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
-| 6 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
+| 5 | [Embeddings & Polysemy](05_embeddings-polysemy/) | Static vs contextual embeddings, meaning-space | Done |
+| 6 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
+| 7 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
 
 ## How to Run
 
@@ -54,6 +55,7 @@ python next_token.py
 - **Self-attention (Q/K/V):** how models figure out which words matter
 - **Autoregressive generation:** how text is built token by token
 - **Tokenization (BPE):** how text becomes numbers the model can process
+- **Embeddings (static vs contextual):** how meaning depends on context
 - **Base vs Instruct models:** the difference between pre-training and fine-tuning
 - **Fine-tuning (SFT, RLHF/DPO):** how we align models to follow instructions
 - **Prompt engineering:** zero-shot, few-shot, chain-of-thought
