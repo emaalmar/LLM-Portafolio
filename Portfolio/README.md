@@ -25,8 +25,9 @@ I'm a nurse transitioning into AI Engineering, combining clinical healthcare kno
 | 4 | [Base vs Instruct: Fine-Tuning](04_base-vs-instruct-finetuning/) | Tokenization, BPE, base vs instruct, SFT/RLHF | Done |
 | 5 | [Embeddings & Polysemy](05_embeddings-polysemy/) | Static vs contextual embeddings, meaning-space | Done |
 | 6 | [Prompt Engineering Principles](06_prompt-engineering-principles/) | Role, output format, few-shot, evaluation rubric, task division | Done |
-| 7 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
-| 8 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
+| 7 | [Prompt Strategies: Zero vs Few vs CoT](07_prompt-strategies/) | Zero-shot, few-shot, chain-of-thought, XML tags, triage classification | Done |
+| 8 | RAG for Medical Documents | Retrieval-Augmented Generation, embeddings | Planned |
+| 9 | HealthTech Chatbot | LLM agents, LangGraph, tool use | Planned |
 
 ## How to Run
 
@@ -59,8 +60,8 @@ python next_token.py
 - **Embeddings (static vs contextual):** how meaning depends on context
 - **Base vs Instruct models:** the difference between pre-training and fine-tuning
 - **Fine-tuning (SFT, RLHF/DPO):** how we align models to follow instructions
-- **Prompt engineering:** zero-shot, few-shot, chain-of-thought
-- **Prompt engineering principles:** role + instructions, output format, few-shot examples, evaluation rubrics, task division
+- **Prompt engineering:** zero-shot, few-shot, chain-of-thought, reasoning steps, XML/Markdown formatting boundaries
+- **Prompt engineering principles:** role + instructions, output format, few-shot examples, evaluation rubrics, task division, programmatic guardrails for small models
 
 ## Contact
 
